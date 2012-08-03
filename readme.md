@@ -10,6 +10,8 @@ We humbly suggest the following status codes are included in the HTTP spec in th
     - 701 - Meh
     - 702 - Emacs
     - 703 - Explosion
+    - 704 - Don't ask...
+    - 705 - I'll fix it after I've checked [social network]
   * 71X - Novelty Implementations
     - 710 - PHP
     - 711 - Convenience Store
@@ -48,6 +50,9 @@ We humbly suggest the following status codes are included in the HTTP spec in th
   * 75X - Syntax Errors
     - 750 - Didn't bother to compile it
     - 753 - Syntax Error
+    - 754 - Forgot to git-add some files before pushing to production
+    - 755 - Too many semi-colons
+ 	- 756 - Not enough semi-colons
     - 759 - Unexpected T_PAAMAYIM_NEKUDOTAYIM
   * 76X - Substance-Affected Developer
     - 761 - Hungover
@@ -76,7 +81,10 @@ We humbly suggest the following status codes are included in the HTTP spec in th
     - 784 - Management, obviously
     - 785 - TPS Cover Sheet not attached
     - 786 - Try it now
+    - 788 - Won't fix
+    - 789 - Problem Exists Between Keyboard And Chair
   * 79X - Internet crashed
+    - 790 - Backups? We don't need no stinkin' backups!
     - 791 - The Internet shut down due to copyright restrictions.
     - 797 - This is the last page of the Internet. Go back
     - 799 - End of the world
