@@ -1,10 +1,8 @@
 # RFC for the 7XX Range of HTTP Status codes - Developer Errors
 
-At Railscamp X it became clear there is a gap in the current HTTP specification.
-
 There are many ways for a developer to screw up their implementation, but no code to share the nature of the error with the end user.
 
-We humbly suggest the following status codes are included in the HTTP spec in the 7XX range.
+We humbly suggest that the following status codes are included in the HTTP specification's 7XX range.
 
   * 70X - Inexcusable
     - 701 - Meh
@@ -37,54 +35,59 @@ We humbly suggest the following status codes are included in the HTTP spec in th
     - 738 - Fucking Bundler
     - 739 - Fucking Windows
   * 74X - Meme Driven
-    - 740 - Computer says no
-    - 741 - Compiling
-    - 742 - A kitten dies
-    - 743 - I thought I knew regular expressions
+    - 740 - Computer says no.
+    - 741 - Compiling.
+    - 742 - A kitten dies.
+    - 743 - I thought I knew regular expressions.
     - 744 - Y U NO write integration tests?
-    - 745 - I don't always test my code, but when I do I do it in production
-    - 746 - Missed Ballmer Peak
-    - 747 - Motherfucking Snakes on the Motherfucking Plane
-    - 748 - Confounded by Ponies
-    - 749 - Reserved for Chuck Norris 
+    - 745 - I don't always test my code, but when I do I do it in production...
+    - 746 - Missed Ballmer Peak.
+    - 747 - Motherfucking Snakes on the Motherfucking Plane!
+    - 748 - Confounded by Ponies.
+    - 749 - Reserved for Chuck Norris.
   * 75X - Syntax Errors
-    - 750 - Didn't bother to compile it
-    - 753 - Syntax Error
-    - 754 - Forgot to git-add some files before pushing to production
-    - 755 - Too many semi-colons
- 	- 756 - Not enough semi-colons
-    - 759 - Unexpected T_PAAMAYIM_NEKUDOTAYIM
+    - 750 - Didn't bother to compile it.
+    - 753 - Syntax Error.
+    - 754 - Forgot to git-add some files before pushing to production.
+    - 755 - Too many semi-colons.
+    - 756 - Not enough semi-colons.
+    - 757 - Mmmmmm. Semi-colons.
+    - 758 - WTF? I could swear there isn't even any C++ in our code base...
+    - 759 - Unexpected T_PAAMAYIM_NEKUDOTAYIM.
   * 76X - Substance-Affected Developer
-    - 761 - Hungover
-    - 762 - Stoned
-    - 763 - Under-Caffeinated
-    - 764 - Over-Caffeinated
-    - 765 - Railscamp
-    - 766 - Sober
-    - 767 - Drunk
-    - 768 - Accidentally Took Sleeping Pills Instead Of Migraine Pills During Crunch Week
-    - 769 - Questionable Maturity Level
+    - 761 - Hungover.
+    - 762 - Stoned.
+    - 763 - Under-Caffeinated.
+    - 764 - Over-Caffeinated.
+    - 765 - Railscamp.
+    - 766 - Sober.
+    - 767 - Drunk.
+    - 768 - Accidentally Took Sleeping Pills Instead Of Migraine Pills During Crunch Week.
+    - 769 - Questionable Maturity Level...
   * 77X - Predictable Problems
-    - 771 - Cached for too long
-    - 772 - Not cached long enough
-    - 773 - Not cached at all
+    - 771 - Cached for too long.
+    - 772 - Not cached long enough.
+    - 773 - Not cached at all.
     - 774 - Why was this cached?
-    - 776 - Error on the Exception
-    - 777 - Coincidence
-    - 778 - Off By One Error
-    - 779 - Off By Too Many To Count Error
+    - 776 - Error on the Exception.
+    - 777 - Coincidence.
+    - 778 - Off By One Error.
+    - 779 - Off By Too Many To Count Error.
   * 78X - Somebody Else's Problem
-    - 780 - Project owner not responding
-    - 781 - Operations
-    - 782 - QA
-    - 783 - It was a customer request, honestly
-    - 784 - Management, obviously
-    - 785 - TPS Cover Sheet not attached
-    - 786 - Try it now
-    - 788 - Won't fix
-    - 789 - Problem Exists Between Keyboard And Chair
+    - 780 - Project owner not responding.
+    - 781 - Operations.
+    - 782 - Quality Assurance.
+    - 783 - It was a customer request, honestly.
+    - 784 - Management, obviously.
+    - 785 - TPS Cover Sheet not attached.
+    - 786 - Try it now...
+    - 788 - Won't fix.
+    - 789 - Problem Exists Between Keyboard And Chair.
   * 79X - Internet crashed
     - 790 - Backups? We don't need no stinkin' backups!
     - 791 - The Internet shut down due to copyright restrictions.
-    - 797 - This is the last page of the Internet. Go back
+    - 792 - Climate change driven catastrophic weather event.
+    - 793 - Zombie Apocalypse.
+    - 794 - Someone let PG near a REPL
+    - 797 - This is the last page of the Internet. Go back.
     - 799 - End of the world
